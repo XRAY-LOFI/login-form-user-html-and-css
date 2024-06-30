@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #cbbaf8;
+}
+
+.login {
+    width: 400px;
+    height: 300px;
+}
+
+.login h1 {
+    color: #003cff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+}
+
+.login .login-ip {
+    width: 85%;
+    height: 50px;
+    margin: 30px 8px;   
+}
+
+.login-ip input {
+    width: 99%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: solid 3px #14128f;
+    border-radius: 15px;
+    padding: 0px 0px 0 40px;
+    color: black;   
+    font-size: 16px;
+}
+
+.login-ip input::placeholder {
+    color: #003cff; 
+    font-size: 16px;
+}
+
+
+.login-ip i {
+    position: relative;
+    top: -45px;
+    left: 5px;
+    font-size: 30px;
+    color: #14128f;
+}
+
+.login .box-checkbox {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    
+}
+
+.box-checkbox label {
+    font-size: 20px;
+    color: #14128f; 
+}
+.box-checkbox a {
+    text-decoration: none;
+    color: #14128f;
+    font-size: 20px;
+}
+
+.box-checkbox a:hover {
+    text-decoration: underline;
+
+}
+
+
+.login .submit {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    background: #14128f;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 32px;
+    color: white;
+}
